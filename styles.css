@@ -2,8 +2,12 @@
     font-family: 'Courier New', Courier, monospace, sans-serif;
 }
 
+#main {
+    background-image: url(./img/pexels-photo-1939485.jpeg);
+}
+
 #body {
-    color:wheat;
+    color: aliceblue;
     background-color: black;
 }
 
