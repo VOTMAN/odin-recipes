@@ -1,0 +1,26 @@
+#main, #body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+#body {
+    color:wheat;
+    background-color: black;
+}
+
+.image-center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-text, .text-center {
+    text-align: center;
+}
+
+#body .text-center {
+    color: white;
+    background-color: black;
+}
+
+
