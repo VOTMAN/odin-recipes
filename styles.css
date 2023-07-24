@@ -6,6 +6,21 @@
     background-image: url(./img/pexels-photo-1939485.jpeg);
 }
 
+#main .link-text,
+#body .link-text,
+.text-center {
+    text-align: center;
+}
+
+#main a {
+    border-color: rgb(102, 33, 33);
+    transition: border .6s ;
+}
+
+#main a:hover {
+    border-color: crimson;
+}
+
 #body {
     color: aliceblue;
     background-color: black;
@@ -23,19 +38,20 @@ a {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 4px;
-    transition: background-color .5s;
+    border: 2px solid white;
     transition: color .6s;
+    transition: border .6s;
+    transition: background-color .5s;
 }
 
 a:hover {
     text-decoration: none;
     color: black;
+    border-color: coral;
     background-color: rgb(255, 255, 255);
 }
 
-.link-text, .text-center {
-    text-align: center;
-}
+
 
 #body .text-center {
     color: white;
