@@ -12,15 +12,6 @@
     text-align: center;
 }
 
-#main a {
-    border-color: rgb(102, 33, 33);
-    transition: border .6s ;
-}
-
-#main a:hover {
-    border-color: crimson;
-}
-
 #body {
     color: aliceblue;
     background-color: black;
@@ -31,6 +22,18 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#main a {
+    color: white;
+    border-color: rgb(102, 33, 33);
+    transition: border .6s ;
+    transition: color .5s;
+}
+
+#main a:hover {
+    color: black;
+    border-color: crimson;
 }
 
 a {
