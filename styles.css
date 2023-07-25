@@ -41,7 +41,8 @@
     transition: background-color .5s;
 }
 
-#main a:hover {
+#main a:hover,
+#main a:focus {
     color: black;
     border-color: crimson;
     background-color: azure;
