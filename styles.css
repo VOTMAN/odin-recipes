@@ -37,7 +37,6 @@
 #main a {
     color: white;
     border-color: rgb(102, 33, 33);
-    transition: border .6s ;
     transition: color .5s;
     transition: background-color .5s;
 }
@@ -55,11 +54,11 @@ a {
     padding: 4px;
     border: 2px solid white;
     transition: color .5s;
-    transition: border .6s;
-    transition: background-color .6s;
+    transition: background-color .7s;
 }
 
-a:hover {
+a:hover,
+a:focus {
     text-decoration: none;
     color: black;
     border-color: rgb(18, 199, 223);
